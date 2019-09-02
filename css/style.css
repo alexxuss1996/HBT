@@ -123,6 +123,10 @@ p {
 
 #showcase .showcase-content .btn {
 	padding: 13px 20px;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+	border: none;
 }
 
 #showcase .showcase-content .btn:hover {
