@@ -45,6 +45,19 @@ p {
 	clear: both;
 }
 
+.primary-text {
+	color: #f7c08a;
+}
+
+.lead {
+	font-size: 20px;
+}
+
+.btn-dark {
+	color: #fff;
+	background-color: #333;
+}
+
 /* Main styles */
 
 #navbar {
@@ -60,6 +73,8 @@ p {
 #navbar .header__logo {
 	float: left;
 	padding-top: 20px;
+	font-size: 28px;
+	font-weight: bold;
 }
 
 #navbar ul {
@@ -80,9 +95,38 @@ p {
 }
 
 #navbar li a:hover,
-#navbar li.current a {
+#navbar li.active a {
 	background-color: #444;
 	transition: all 0.25s cubic-bezier(0.215, 0.610, 0.355, 1);
 	color: #f7c08a;
+}
 
+#showcase {
+	height: 600px;
+	background: url(../img/showcase.jpg) no-repeat center center/cover;
+
+}
+
+#showcase .showcase-content {
+	padding-top: 170px;
+	color: #fff;
+	text-align: center;
+}
+
+#showcase .showcase-content h1 {
+	margin-bottom: 10px;
+}
+
+#showcase .showcase-content p {
+	margin-bottom: 40px;
+}
+
+#showcase .showcase-content .btn {
+	padding: 13px 20px;
+}
+
+#showcase .showcase-content .btn:hover {
+	transition: all 0.25s ease;
+	color: #333;
+	background-color: #f7c08a;
 }
