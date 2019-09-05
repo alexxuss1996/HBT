@@ -97,6 +97,22 @@ p {
 	color: #333;
 }
 
+.l-heading {
+	font-size: 40px;
+}
+
+.py-1 {
+	padding: 10px 0;
+}
+
+.py-2 {
+	padding: 20px 0;
+}
+
+.py-3 {
+	padding: 30px 0;
+}
+
 /* Main styles */
 
 #navbar {
@@ -197,8 +213,29 @@ p {
 	margin-bottom: 15px;
 }
 
+#about-info .info-left {
+	width: 50%;
+	float: left;
+	min-height: 100%;
+}
+
+#about-info .info-right {
+	width: 50%;
+	float: right;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+#about-info .info-right img {
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	width: 70%;
+}
+
 #footer {
 	text-align: center;
 	padding: 20px;
 	color: #fff;
+	background-color: #444;
 }
