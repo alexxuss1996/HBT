@@ -1,0 +1,61 @@
+h1,
+h2,
+.l-heading,
+#contact-form p,
+#contact-form .btn {
+	text-align: center;
+}
+
+#navbar .header__logo {
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+
+#contact-form .btn {
+	text-align: center;
+	width: 100%;
+}
+
+#navbar .header__logo,
+#navbar ul,
+#navbar ul li,
+#about-info .info-left,
+#about-info .info-right,
+.box {
+	float: none;
+	width: 100%;
+}
+
+
+
+#navbar ul li:last-child {
+	margin-bottom: 15px;
+}
+
+#navbar ul li a {
+	padding: 10px 0;
+	display: block;
+	width: 100%;
+	font-size: 14px;
+}
+
+#showcase {
+	height: 400px;
+}
+
+#home-info .info-img {
+	display: none;
+}
+
+#home-info .info-content {
+	float: none;
+	width: 100%;
+}
+
+
+
+#about-info p:last-child,
+#contact-form p:last-child {
+	margin-bottom: 30px;
+}
